@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="spinner1_values">
+    <item>Choose Vehicle Make</item>
+    <item>FORD</item>
+    <item>TOYOTA</item>
+    <item>VW</item>
+</string-array>
+
+<string-array name="spinner2_values">
+    <item>Choose Vehicle Model</item>
+    <item>RANGER</item>
+    <item>HILUX</item>
+    <item>POLO</item>
+</string-array>
+
+<string-array name="spinner3_values">
+    <item>Select Type of Wash</item>
+    <item>Wash n Go</item>
+    <item>Valet</item>
+    <item>Vacuum and Clean Only</item>
+    <item>Wash Only</item>
+</string-array>
+</resources>

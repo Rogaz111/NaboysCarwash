@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_background"
+    tools:context=".BookingFragment" >
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:text="Car Details" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <TextView
+        android:id="@+id/text_view_model"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_bg"
+        android:clickable="true"
+        android:gravity="center"
+        android:minHeight="48dp"
+        android:text="Select Vehicle Model"
+        android:textColor="@color/black" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        />
+
+    <TextView
+        android:id="@+id/text_view_model2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_bg"
+        android:clickable="true"
+        android:gravity="center"
+        android:minHeight="48dp"
+        android:text="Select Vehicle Make"
+        android:textColor="@color/black" />
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        />
+
+    <TextView
+        android:id="@+id/text_view_model3"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_bg"
+        android:clickable="true"
+        android:gravity="center"
+        android:minHeight="48dp"
+        android:text="Select Wash Type"
+        android:textColor="@color/black" />
+
+    <View
+        android:id="@+id/view6"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:text="Select Appointment Date"/>
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        />
+
+    <TextView
+        android:id="@+id/dateView"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/edittext_bg"
+        android:textColor="@color/black"
+        android:padding="16dp"
+        android:text="No date and time selected" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:text="Client Information"/>
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:background="@drawable/edittext_bg"
+        android:padding="16dp"
+        android:inputType="text"
+        android:hint="Input Vehicle Owner Name"
+        android:imeOptions="actionNext"
+        android:textColorHint="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/editTextContact"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:background="@drawable/edittext_bg"
+        android:padding="16dp"
+        android:inputType="text"
+        android:hint="Input Vehicle Owner Contact Number"
+        android:imeOptions="actionNext"
+        android:textColorHint="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/editTextAddress"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/edittext_bg"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:padding="16dp"
+        android:inputType="text"
+        android:hint="Input Vehicle Owner Address"
+        android:textColorHint="@color/black"
+        android:imeOptions="actionDone"
+        />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Confirm Booking"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/black" />
+
+
+</LinearLayout>
+
+

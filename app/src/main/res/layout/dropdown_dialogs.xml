@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rounded_corners_global"
+    android:padding="0dp"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_view_model"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:gravity="center"
+        android:minHeight="32dp"
+        android:text="Select Vehicle Model"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/no_makes_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:gravity="center"
+        android:minHeight="32dp"
+        android:text=""
+        android:textColor="@color/white"
+        />
+
+    <ListView
+        android:id="@+id/list_view_models"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:dividerHeight="1dp"/>
+</LinearLayout>

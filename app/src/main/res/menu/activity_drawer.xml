@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_home"
+        android:title="HOME"
+        android:icon="@drawable/baseline_home_24"
+         />
+
+
+    <item
+        android:id="@+id/menu_booking"
+        android:title="MAKE BOOKING"
+        android:icon="@drawable/baseline_local_car_wash_24"
+        />
+
+    <item
+        android:id="@+id/menu_galary"
+        android:title="GALLERY"
+        android:icon="@drawable/baseline_photo_album_24"
+        />
+    <item
+        android:id="@+id/menu_prices"
+        android:title="PRICES"
+        android:icon="@drawable/baseline_payment_24"
+         />
+    <item
+        android:id="@+id/menu_staff"
+        android:title="MEET THE STAFF"
+        android:icon="@drawable/baseline_person_24"
+        />
+    <item
+        android:id="@+id/menu_about"
+        android:title="ABOUT"
+        android:icon="@drawable/baseline_info_24"
+        />
+
+</menu>
